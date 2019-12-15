@@ -19,6 +19,7 @@ public class SCR_PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < 0) SCR_Manager.instance.End();
         if (jumped) return;
         rb.AddRelativeForce(Vector2.right * speed);
         if (Input.touchCount > 0 || Input.GetKeyDown(KeyCode.Space))
