@@ -584,7 +584,7 @@ PrefabInstance:
     - target: {fileID: 7558567591448625999, guid: 86f9d7d5324614a40966758033a9e76c,
         type: 3}
       propertyPath: jumpForce
-      value: 1400
+      value: 1600
       objectReference: {fileID: 0}
     - target: {fileID: 2292825729495946316, guid: 86f9d7d5324614a40966758033a9e76c,
         type: 3}
@@ -627,6 +627,12 @@ PrefabInstance:
       propertyPath: platforms.Array.data[2]
       value: 
       objectReference: {fileID: 7119430057858981790, guid: 0cc78bfc8330f9a4dbac3fb17448ac7d,
+        type: 3}
+    - target: {fileID: 7951906340185575307, guid: 86f9d7d5324614a40966758033a9e76c,
+        type: 3}
+      propertyPath: scoreMultiplier
+      value: 
+      objectReference: {fileID: 4114139433273964321, guid: 793ce61ff9b72034da095587ea1f7538,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f9d7d5324614a40966758033a9e76c, type: 3}
